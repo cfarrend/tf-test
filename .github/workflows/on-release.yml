@@ -6,7 +6,6 @@ on:
 
 jobs:
   deploy_production:
-    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Code
